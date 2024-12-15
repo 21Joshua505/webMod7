@@ -1,0 +1,31 @@
+/* Tambahan untuk video container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Rasio 16:9 */
+    height: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    background-color: #f8f9fa;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Tambahan untuk kolom kiri */
+.bg-light {
+    background-color: #e9ecef !important;
+    border: 1px solid #ddd;
+}
+
+/* Tambahan untuk gambar */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
